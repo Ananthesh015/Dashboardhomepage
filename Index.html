@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="sidenav">
+        <nav>
+            <ul>
+                <li>   <a href="#"> <span class="fa fa-tasks"></span> </a>  </li>
+                <li>   <a href="#"> <span class="fa fa-tachometer"></span> </a> </li>
+                <li>   <a href="#"> <span class="fa fa-share-alt-square"></span> </a> </li>
+                <li>   <a href="#"> <span class="fa fa-book"></span> </a> </li>
+                <li>   <a href="#"> <span class="fa fa-pie-chart"></span> </a> </li>
+                <li>   <a href="#"> <span class="fa fa-table"></span> </a> </li>
+                <li>   <a href="#"> <span class="fa fa-envelope"></span> </a> </li>
+                <li>   <a href="#"> <span class="fa fa-th-large"></span> </a> </li>
+                <li>   <a href="#"> <span class="fa fa-question-circle"></span> </a> </li>
+                <li>   <a href="#"> <span class="fa fa-user"></span> </a> </li>
+                <li>   <a href="#"> <span class="fa fa-file-text"></span> </a> </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container" >
+       
+        <nav class="main_nav" >
+            <!-- <div class="left_nav"></div> -->
+            <div class="right_nav">
+                <ul>
+                    <li> 
+                        <div class="input_field"> 
+                            <input type="text" value="" placeholder="Search Here.."  />
+                            <span class="fa fa-search"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"> <span class="fa fa-bell"></span> </a>
+                        <span class="badge">3</span>
+                    </li>
+                    <li>
+                        <a href="#"> <span class="fa fa-comment-o"></span> </a>
+                        <span class="badge">4</span>
+                    </li>   
+                    <li class="img_container">
+                        <a href="#"> <img src="./img/user.jpg"  alt="Avatar" class="avatar"> </a>
+                    </li>    
+                </ul>
+            </div>
+        </nav>
+      
+        <div class="dashboard">
+            <div class="header">
+                    <ul class="breadcrums">
+                        <li><a href="#">Home</a></li>
+                        <li>DashBoard</li>
+                    </ul>
+                    <h1>Hi <span>Jhon</span>,Welcome Back</h1>
+                    <p>Very detailed & featured admin</p>
+            </div>
+            <div class="dashboard_container">
+                <div class="columns">
+                    <div class="col-1">
+                        <span class="fa fa-users"></span>
+                        <div class="dashboard_datails">
+                            <h2 class="blue_text" >27.75 M</h2> 
+                            <p>Total Users</p>
+                        </div>
+
+                    </div>
+                    <div class="col-1">
+                        <span class="fa fa-eye"></span>
+                        <div class="dashboard_datails" >
+                            <h2 class="purple_text">51.25 k</h2> 
+                            <p>Daily Visitor</p>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <span class="fa fa-cloud-download"></span>
+                        <div class="dashboard_datails">
+                            <h2 class="green_text">166.89 M</h2> 
+                            <p>Downloads</p>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <span class="fa fa-shopping-cart"></span>
+                        <div class="dashboard_datails">
+                            <h2 class="red_text">1,250 K</h2> 
+                            <p>Purchased</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
